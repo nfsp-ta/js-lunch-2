@@ -1,41 +1,27 @@
 # JavaScript Lunch &amp; Learn - Part 2
 
-## Array Functions
-- Intro/Supporting context
-- Why?
-- Old Way
-- New Way
-- Is there an equivalent in C#/Java?
-- Deep Dive if necessary
-- Where will I see this?
-- Q & A
+## Agenda
+- Introduction ~2 minutes
+- 3 Topics ~16 minutes each (~48 minutes total)
+- Open Discussion ~10 minutes
 
-## Promises & Async/await
-- Intro/Supporting context
-- Why?
-- Old Way
-- New Way
-- Is there an equivalent in C#/Java?
-- Deep Dive
-- Q & A
+## Disclaimers
+- We will be moving very quickly, each topic could probably be its own L&L. Feel free to contact Omar or Ashley after the L&L with more questions.
+- JavaScript is a spec, and implementations vary (per browser, node, etc...)
+- Currently, it's very common for JavaScript to be transpiled (think Babel, TypeScript) or use a bundler like Webpack; for the most part, we're going to ignore this unless it specifically applies to a particular topic.
+- For the most part, we'll be presenting code that is as implementation agnostic as possible, but there are always subtle differences.
 
-## Generator Functions (?)
-- Intro/Supporting context
-- Why?
-- Old Way
-- New Way
-- Is there an equivalent in C#/Java?
-- Deep Dive if necessary
-- Where will I see this?
-- Q & A
+## Topics
+- [Object Destructuring | Rest/Spread](object-destructuring-rest-spread/README.md)
+- [JS modules](js-modules/README.md)
+- [Default Parameters](default-parameters/README.md)
 
-## Classes
-- Intro/Supporting context
-- Why?
-- Old Way
-- New Way
+## Discussion Format
+(codesandbox demo throughout)
+- Intro
+- The Old Way
+- Why a Change is Needed
+- The New Way
 - Is there an equivalent in C#/Java?
-- Deep Dive if necessary
-- Where will I see this?
+- Potential Pitfalls
 - Q & A
-
