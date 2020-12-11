@@ -40,3 +40,8 @@ JavaScript's module system is different enough from other languages that it does
 ## Potential Pitfalls
 
 ## Q & A
+
+## Sources
+
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules
+- https://javascript.info/modules-intro
