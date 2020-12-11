@@ -1,4 +1,5 @@
-# Template Literals
+# JavaScript Modules
+
 ## Intro
 As a 'scripting' language, early JavaScript didn't even think about modules. The thought was that scripts would be short, and most of the page would be content.
 As the language grew, so did the amount of code and the need to split that code up into manageable, reusable chunks.
@@ -9,12 +10,14 @@ As the language grew, so did the amount of code and the need to split that code 
 - JavaScript Libraries
     - jQuery, lodash
 
-## The New Way & Why it is Needed
+## Why a Change is Needed
 
 The problem with the old approach is that everything is on the global scope.
 This leads to libraries using weird names to prevent collisions ($, _)
 Think about what the C# ecosystem would look like without namespaces, class names would be a mess...
 Also, load order (the order of the `<script>` tags) is a big problem.
+
+## The New Way
 
 To address this ES6 (2015) introduced a language-level module system using the `import` and `export` statements.
 
@@ -37,11 +40,3 @@ JavaScript's module system is different enough from other languages that it does
 ## Potential Pitfalls
 
 ## Q & A
-
-- Intro
-- The Old Way
-- The New Way & Why it is Needed
-- Is there an equivalent in C#/Java?
-- Demo
-- Potential Pitfalls
-- Q & A
